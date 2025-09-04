@@ -1,0 +1,156 @@
+body{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.hero-main{
+    margin-left: 90px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.logos a{
+    margin-right: 15px;
+    background-color: #F2F2F2;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color .8s ease, color .8s ease;
+}
+
+.logos a:hover{
+    background-color: red;
+}
+
+.logos a i{
+    transition: background-color .8s ease, color .8s ease;
+}
+
+.logos a:hover i{
+    color: white;
+}
+
+.text{
+    margin-top: 30px;
+    width: 350px;
+    float: left;
+}
+
+.text h1{
+    font-family: "Ndot55", sans-serif;
+    font-size: 29px;
+    margin-top: 20px;
+}
+
+span{
+    color: red;
+}
+
+.text p{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 2;
+    width: 310px;
+}
+
+.hero-enlace{
+    margin-top: 20px;
+}
+
+.hero-img-main{
+    float: left;
+    margin-left: 100px;
+}
+
+.hero-img-main img{
+    width: 350px;
+}
+
+.hero-cards{
+    margin-top: 180px;
+    margin-left: 90px;
+}
+
+.text-1{
+    width: 480px;
+}
+
+.text-1 h1{
+    font-family: "Ndot55", sans-serif;
+    font-size: 29px;
+    margin-top: 10px;
+}
+
+.text-1 span, .text-1 p{
+    font-size: 12px;
+}
+
+.text-1 p, .card p{
+    margin-top: 10px;
+    line-height: 2;
+}
+
+.card{
+    margin-top: 20px;
+    width: 280px;
+    height: 250px;
+    background-color: #F2F2F2;
+    padding: 25px 10px 0 10px;
+    float: left;
+    border-radius: 3px;
+}
+
+.card:hover{
+    background-color: red;
+    color: white;
+}
+
+.card:hover p, .card:hover h2, .card:hover i, .card:hover span{
+    color: white;
+}
+
+.card p, .card h2, .card, .card span, .card i{
+    transition: color .8s ease, background-color .8s ease;
+}
+
+#right{
+    margin-left: 20px;
+}
+
+.card i{
+    color: red;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.card h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card p{
+    font-size: 12px;
+}
+
+.card span > i{
+    color: red;
+}
+
+#text-2{
+    width: 480px;
+}
+
+#img-2{
+    width: 300px;
+    margin-top: 100px;
+}
+
+#p1{
+    width: 400px;
+}
+
+.hero-main-2{
+    margin-top: 150px;
+    margin-left: 90px;
+    width: 400px;
+}
+
