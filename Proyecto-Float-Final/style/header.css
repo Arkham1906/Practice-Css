@@ -16,27 +16,37 @@
     color: black;
 }
 
-header{
-    padding: 10px;
-    height: 50px;
+html{
+    background-color: black;
 }
 
-header div{
-    margin-left: 80px;
+body{
+    background-color: white;
+}
+
+header{
+    padding: 0 90px;
+}
+
+.hero-nav-menu{
+    padding: 10px 0;
+}
+
+.hero-nav-menu div{
+    padding: 0px 20px;
 }
 
 .clearfix{
     clear: both;
 }
 
-.hero-menu{
-    height: 100%;
-    margin-top: 5px;
-}
-
-.hero-menu a{
+.hero-menu ul li a{
     margin-left: 20px;
     font-size: 12px;
+}
+
+.clear-margin{
+    margin-left: 0px !important;
 }
 
 .hero-menu a , .hero-menu i, .logo a{
@@ -53,11 +63,7 @@ header div{
     color: black;
 }
 
-.hero-buttons{
-    margin-top: 5px;
-}
-
-.hero-buttons, .hero-menu a, .hero-menu, .logo{
+.hero-buttons, .hero-menu ul li, .hero-menu, .logo{
     float: left;
 }
 
@@ -78,6 +84,7 @@ header div{
     color: white;
     border: 1px solid red;
     transition: background-color .8s ease, color .8s ease;
+    display: inline-block;
 }
 
 .ri-moon-fill{
