@@ -36,6 +36,10 @@ header{
     padding: 0px 20px;
 }
 
+.logo{
+    padding: 0 20px 0 0 !important;
+}
+
 .clearfix{
     clear: both;
 }
