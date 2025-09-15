@@ -1,0 +1,77 @@
+:root{
+    --font-title: "Ndot55", sans-serif;
+}
+
+.hero-main{
+    width: 100%;
+    padding: 100px 70px 100px 90px;
+}
+
+.logos a{
+    margin-left: 15px;
+    background-color: #F2F2F2;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color .8s ease, color .8s ease;
+}
+
+.logos ul{
+    padding-top: 20px;
+}
+
+.logos ul li {
+    float: left;
+}
+
+.logos a:hover{
+    background-color: red;
+}
+
+.logos ul li a {
+    transition: background-color .8s ease, color .8s ease;
+    display: inline-block;
+}
+
+.logos a:hover i{
+    color: white;
+}
+
+.text{
+    float: left;
+}
+
+.text h1{
+    font-family: "Ndot55", sans-serif;
+    font-size: 29px;
+    margin-top: 20px;
+}
+
+span{
+    color: red;
+    font-family: "Ndot55", sans-serif;;
+}
+
+.text p{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 2;
+    width: 310px;
+}
+
+.hero-enlace{
+    margin-top: 20px;
+}
+
+.hero-img-main{
+    float: left;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.img{
+    padding: 40px 0 40px 0;
+}
+
+.hero-img-main img{
+    width: 100%;
+}

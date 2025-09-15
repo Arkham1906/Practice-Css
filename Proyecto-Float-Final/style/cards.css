@@ -1,0 +1,70 @@
+.hero-cards{
+    padding: 100px 20px 100px 90px;
+}
+
+.text-1{
+    width: 480px;
+}
+
+.text-1 h1{
+    font-family: "Ndot55", sans-serif;
+    font-size: 29px;
+    margin-top: 10px;
+}
+
+.text-1 span, .text-1 p{
+    font-size: 12px;
+}
+
+.text-1 p, .card p{
+    margin-top: 10px;
+    line-height: 2;
+}
+
+.cards{
+    margin-top: 20px;
+}
+
+.card{
+    width: 280px;
+    background-color: #F2F2F2;
+    padding: 25px 10px;
+    float: left;
+    border-radius: 3px;
+}
+
+.card:hover{
+    background-color: red;
+    color: white;
+}
+
+.card:hover p, .card:hover h2, .card:hover i, .card:hover span{
+    color: white;
+}
+
+.card p, .card h2, .card, .card span, .card i{
+    transition: color .8s ease, background-color .8s ease;
+}
+
+.right{
+    margin-left: 20px;
+}
+
+.card i{
+    color: red;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.card h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card p{
+    font-size: 12px;
+}
+
+.card span > i{
+    color: red;
+}

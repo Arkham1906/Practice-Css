@@ -1,0 +1,53 @@
+.hero-main-4{
+    padding: 50px 70px 50px 90px;
+}
+
+:root{
+    --accent: red;
+    --bg: #efefef;
+    --bar-height: 6px;
+    --bar-radius: 999px;
+}
+
+.skill{
+    max-width: 640px;
+    margin: 18px 0;
+}
+
+.skill-row{
+    margin-bottom: 8px;
+}
+
+.skill-name{
+    float: left;
+    font-weight: 600;
+    color: #333;
+}
+
+.skill-value{
+    float: right;
+    font-weight: 600;
+    color: #333;
+}
+
+.progress{
+    background: var(--bg);
+    height: var(--bar-height);
+    border-radius: var(--bar-radius);
+}
+
+.progress-fill{
+    width: var(--value,0%);
+    height: 100%;
+    background: var(--accent);
+    border-radius: var(--bar-radius);
+    transition: width .8s ease;
+}
+
+.img-3{
+    width: 300px;
+}
+
+.clear-margin-boton{
+    margin-bottom: 0 !important;
+}

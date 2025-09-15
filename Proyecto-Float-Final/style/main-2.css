@@ -1,0 +1,19 @@
+.sub-2{
+    padding: 100px 20px 100px 90px;
+}
+
+.sub-2 .hero-img-main{
+    width: 300px;
+}
+
+.sub-2 .hero-img-main .img{
+    padding: 20px 0;
+}
+
+.text-2{
+    width: 480px;
+}
+
+.text-2 p{
+    width: auto;
+}

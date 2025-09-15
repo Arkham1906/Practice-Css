@@ -1,0 +1,55 @@
+.hero-main-3{
+    padding: 0 0 50px 0;
+}
+
+.hero-container-1{
+    float: left;
+    width: 450px;
+    padding: 40px 10px 20px 10px;
+}
+.text-3 h1{
+    font-family: var(--font-title);
+    font-size: 30px;
+}
+
+.text-3 p{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.hero-mini-cards{
+    width: 430px;
+}
+
+.mini-card{
+    background-color: #F2F2F2;
+    float: left;
+    padding: 10px 5px;
+    width: 210px;
+    margin-left: 5px;
+    transition: color .8s ease, background-color .8s ease;
+}
+
+.mini-cards{
+    margin-top: 5px;
+}
+
+.mini-card i{
+    font-size: 28px;
+    color: red;
+    transition: color .8s ease;
+}
+
+.mini-card p{
+    font-size: 14px;
+    transition: color .8s ease;
+}
+
+.mini-card:hover{
+    background-color: red;
+}
+
+.mini-card:hover p, .mini-card:hover i{
+    color: white;
+}
