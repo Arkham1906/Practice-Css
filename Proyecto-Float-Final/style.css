@@ -1,0 +1,30 @@
+/* El padre debe ser relativo para posicionar el hijo */
+.hover-target {
+  position: relative;
+  cursor: pointer; /* opcional */
+}
+
+/* Caja oculta por defecto */
+.hover-box {
+  position: absolute;
+  top: 100%; /* aparece debajo, puedes poner top:0; left:100%; etc */
+  left: 0;
+  background: #222;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(5px);
+  transition: all .3s ease;
+  z-index: 10; /* para que quede encima */
+}
+
+/* Al hacer hover en el contenedor padre, aparece */
+.hover-target:hover .hover-box {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

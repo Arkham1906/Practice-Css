@@ -25,11 +25,14 @@
     margin-top: 20px;
 }
 
+.column-card{
+    float: left;
+}
+
 .card{
     width: 280px;
     background-color: #F2F2F2;
     padding: 25px 10px;
-    float: left;
     border-radius: 3px;
 }
 
