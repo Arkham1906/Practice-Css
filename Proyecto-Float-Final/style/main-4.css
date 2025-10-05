@@ -1,5 +1,5 @@
 .hero-main-4{
-    padding: 50px 70px 50px 90px;
+    padding: 50px 55px;
 }
 
 :root{
@@ -9,23 +9,34 @@
     --bar-radius: 999px;
 }
 
-.skill{
-    max-width: 640px;
-    margin: 18px 0;
+.column-hero-container-1{
+    padding: 0 25px;
+    width: 500px;
 }
 
-.skill-row{
-    margin-bottom: 8px;
+.column-hero-container-1, .skill-name, .skill-value{
+    float: left;
+}
+
+.hero-container-1 > * + *{
+    margin-top: 18px;
+}
+
+.skill{
+    max-width: 500px;
+}
+
+.skill-row > * + *{
+    margin-left: 260px;
 }
 
 .skill-name{
-    float: left;
     font-weight: 600;
     color: #333;
+    width: 150px;
 }
 
 .skill-value{
-    float: right;
     font-weight: 600;
     color: #333;
 }
@@ -44,10 +55,6 @@
     transition: width .8s ease;
 }
 
-.img-3{
-    width: 300px;
-}
-
-.clear-margin-boton{
-    margin-bottom: 0 !important;
+.hero-main-4 .hero-img-main{
+    width: 350px;
 }

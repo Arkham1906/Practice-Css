@@ -1,15 +1,20 @@
 .hero-cards{
-    padding: 100px 20px 100px 90px;
+    padding: 100px 60px;
+    width: auto;
+}
+
+.main-cards > * + *, .hero-cards > * + *{
+    margin-top: 20px;
 }
 
 .text-1{
     width: 480px;
+    padding: 0 10px;
 }
 
 .text-1 h1{
     font-family: "Ndot55", sans-serif;
     font-size: 29px;
-    margin-top: 10px;
 }
 
 .text-1 span, .text-1 p{
@@ -17,16 +22,20 @@
 }
 
 .text-1 p, .card p{
-    margin-top: 10px;
     line-height: 2;
 }
 
-.cards{
-    margin-top: 20px;
+.text-1 > * + *, .card > * + *{
+    margin-top: 10px;
+}
+
+.main-cards{
+    width: 100%;
 }
 
 .column-card{
     float: left;
+    padding: 0 10px;
 }
 
 .card{
@@ -49,10 +58,6 @@
     transition: color .8s ease, background-color .8s ease;
 }
 
-.right{
-    margin-left: 20px;
-}
-
 .card i{
     color: red;
     font-size: 40px;
@@ -61,7 +66,6 @@
 
 .card h2{
     font-size: 20px;
-    margin-top: 10px;
 }
 
 .card p{

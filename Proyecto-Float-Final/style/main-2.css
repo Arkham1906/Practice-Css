@@ -1,9 +1,9 @@
 .sub-2{
-    padding: 100px 20px 100px 90px;
+    padding: 100px 55px;
 }
 
 .sub-2 .hero-img-main{
-    width: 300px;
+    width: 350px;
 }
 
 .sub-2 .hero-img-main .img{
@@ -12,6 +12,10 @@
 
 .text-2{
     width: 480px;
+}
+
+.sub-2 .text{
+    padding: 25px 0;
 }
 
 .text-2 p{
